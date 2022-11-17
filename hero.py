@@ -21,9 +21,11 @@ class Hero:
             # Phases to implement:
             #1) randomly choose winner,
             # Hint: Look into random library, more specifically the choice method
-        fighters = [self.name, opponent.name]
+        fighters = [self.name, opponent.name]#!!!
         victor = random.choice(fighters)
         print(f"{victor} wins!")
+    
+
 
 
 
